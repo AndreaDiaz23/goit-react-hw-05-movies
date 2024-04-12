@@ -16,8 +16,8 @@
 }; */
 
 import { Route, Routes } from 'react-router-dom';
-import { NotFound } from './NotFound';
-import { SharedLayout } from './SharedLayout';
+/* import { NotFound } from './NotFound';
+ */import { SharedLayout } from './SharedLayout';
 import { lazy } from 'react';
 const Home = lazy(() => import('../Pages/Home'));
 const Movies = lazy(() => import('../Pages/Movies'));
@@ -43,7 +43,7 @@ export const App = () => {
             <Route path="cast" element={<Cast />} />
             <Route path="reviews" element={<Reviews />} />
           </Route>
-          <Route path="*" element={<NotFound />} />
+        {/*   <Route path="*" element={<NotFound />} /> */}
         </Route>
       </Routes>
     </div>
