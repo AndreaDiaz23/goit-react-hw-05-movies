@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation, useParams } from 'react-router-dom';
-import { fetchTrendMovies } from 'js/fetchApi';
+import { fetchTrendMovies } from 'js/api';
 import { useEffect, useState } from 'react';
 import css from './styles.module.css';
 

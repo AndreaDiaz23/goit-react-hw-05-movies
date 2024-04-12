@@ -3,7 +3,7 @@ import { lazy, useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import css from './styles.module.css';
 
-const TrendingMovies = lazy(() => import('../../components/TrendingMovies'));
+const TrendingMovies = lazy(() => import('../../components/TrendingMovies/TrendingMovies'));
 
 const Movies = () => {
   const [searchParams, setSearchParams] = useSearchParams();

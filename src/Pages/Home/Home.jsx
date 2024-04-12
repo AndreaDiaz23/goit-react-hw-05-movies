@@ -1,7 +1,9 @@
 import { lazy, useEffect, useState } from 'react';
-import { fetchTrendMovies } from 'js/fetchApi';
+import { fetchTrendMovies } from 'js/api';
 
-const TrendingMovies = lazy(() => import('../../components/TrendingMovies'));
+const TrendingMovies = lazy(() =>
+  import('../../components/TrendingMovies/TrendingMovies')
+);
 
 const url = 'https://api.themoviedb.org/3/trending/movie/day?language=en-US';
 
