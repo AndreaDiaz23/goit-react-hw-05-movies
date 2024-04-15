@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/935.c3c21be4.chunk.css","mappings":"AAAA,kBACI,YAAa,CACb,qBAAsB,CACtB,OACF","sources":["components/TrendingMovies/styles.module.css"],"sourcesContent":[".ul {\n    display: flex;\n    flex-direction: column;\n    gap: 5px;\n  }"],"names":[],"sourceRoot":""}
