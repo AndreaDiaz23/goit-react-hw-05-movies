@@ -17,7 +17,7 @@
 
 import { Route, Routes } from 'react-router-dom';
 import NotFound from './NotFound/NotFound';
-import { SharedLayout } from './SharedLayout/SharedLayput';
+import { SharedLayout } from './SharedLayout/SharedLayout';
 import { lazy } from 'react';
 const Home = lazy(() => import('../Pages/Home/Home'));
 const Movies = lazy(() => import('../Pages/Movies/Movies'));
